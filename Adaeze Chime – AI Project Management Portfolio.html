@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Adaeze Chime – AI Project Management Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#f3f6f4;--surface:#ffffff;--text:#16231f;--muted:#53625d;--accent:#0e5e6f;--accent-soft:#e1eef0;--line:#d8e0dc;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#0f1a1c;--surface:#16252a;--text:#e4ecea;--muted:#9fb0ab;--accent:#7fcad9;--accent-soft:#1b3a42;--line:#27393e;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#0f1a1c;--surface:#16252a;--text:#e4ecea;--muted:#9fb0ab;--accent:#7fcad9;--accent-soft:#1b3a42;--line:#27393e;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:1.0625rem;line-height:1.6}
+h1,h2,h3{font-family:"Newsreader",Georgia,"Times New Roman",serif;font-weight:600;line-height:1.2;margin:0}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+p{margin:0 0 1em}
+.wrap{max-width:60rem;margin:0 auto;padding:0 1.25rem}
+header.hero{padding:4.5rem 0 3rem;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(2.6rem,8vw,4.4rem);letter-spacing:-.01em}
+.hero .role{margin:.6rem 0 1.4rem;color:var(--muted);font-size:1.1rem}
+.hero .lead{font-family:"Newsreader",Georgia,serif;font-size:clamp(1.35rem,3.2vw,1.8rem);line-height:1.4;max-width:34em;margin-bottom:1.6rem}
+.contact{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;font-size:.98rem}
+section{display:grid;grid-template-columns:11rem 1fr;gap:1rem 2.5rem;padding:3rem 0;border-bottom:1px solid var(--line)}
+section>h2{font-size:1.35rem;color:var(--accent)}
+.body{max-width:40rem}
+@media (max-width:720px){section{grid-template-columns:1fr;padding:2.2rem 0}}
+.role-item{border-left:2px solid var(--line);padding-left:1.1rem;margin:0 0 1.8rem 0}
+.role-item h3{font-size:1.2rem}
+.when{color:var(--muted);font-size:.92rem;margin:.15rem 0 .7rem}
+ul{margin:0;padding-left:1.15rem}
+li{margin:0 0 .45rem}
+.project{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:1.4rem 1.4rem .6rem;margin-bottom:1.5rem}
+.project h3{font-size:1.25rem;margin-bottom:.3rem}
+.project .focus{color:var(--muted);font-size:.95rem;margin-bottom:1rem}
+.project h4{font-size:.95rem;font-weight:600;margin:1.2rem 0 .5rem}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin:.9rem 0 1.1rem}
+.stat{background:var(--accent-soft);border-radius:4px;padding:.8rem .9rem}
+.stat b{display:block;font-family:"Newsreader",Georgia,serif;font-size:1.9rem;line-height:1.1}
+.stat span{font-size:.85rem;color:var(--muted)}
+@media (max-width:520px){.stats{grid-template-columns:1fr}}
+.skills{font-size:.95rem;color:var(--muted)}
+.callout{border-left:3px solid var(--accent);padding:.1rem 0 .1rem 1rem;margin:1.2rem 0}
+.tablewrap{overflow-x:auto;max-width:100%}
+table{border-collapse:collapse;width:100%;min-width:30rem;font-size:.98rem}
+th,td{text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:.9rem}
+td:first-child{font-weight:500;white-space:nowrap}
+dl{margin:0}
+dt{font-weight:600;margin-top:.9rem}
+dd{margin:0;color:var(--muted)}
+ol.principles{padding-left:1.15rem}
+ol.principles li{margin-bottom:.7rem}
+footer{padding:2.5rem 0 3rem;color:var(--muted);font-size:.95rem}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>Adaeze Chime</h1>
+    <p class="role">AI project management, data operations and team leadership</p>
+    <p class="lead">I run AI data production teams: recruiting people, training them, keeping output moving and making sure what reaches the client meets their standard.</p>
+    <div class="contact">
+      <a href="mailto:adaezechime3@gmail.com">adaezechime3@gmail.com</a>
+      <a href="https://www.linkedin.com/in/adaeze-chime-ab929a228">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="profile">
+  <h2>Profile</h2>
+  <div class="body">
+    <p>I’m an AI project management and data operations professional with practical experience coordinating distributed teams, managing AI data production workflows and overseeing project execution.</p>
+    <p>My foundation in leadership and organisational management began with university leadership responsibilities and grew through my work at Intelliscan Africa. I progressed from Data Annotation Administrator to AI Project Team Lead, gaining hands-on experience in workforce recruitment, team training, production management, quality assurance and client delivery.</p>
+    <p>My approach combines people management, operational organisation and performance monitoring, with a focus on delivering quality outputs within established project requirements.</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="body">
+    <p class="skills">Intelliscan Africa</p>
+    <div class="role-item">
+      <h3>AI Project Team Lead</h3>
+      <p class="when">November 2026 – present</p>
+      <ul>
+        <li>Coordinate AI project personnel and oversee day-to-day production activities.</li>
+        <li>Manage task allocation, team progress and productivity monitoring.</li>
+        <li>Coordinate recruitment, onboarding and training of project personnel.</li>
+        <li>Monitor deliverables against project requirements and timelines.</li>
+        <li>Identify operational bottlenecks and put practical fixes in place to keep workflow efficient.</li>
+        <li>Coordinate audio data workflows covering file management, Azure Storage and transcription.</li>
+      </ul>
+    </div>
+    <div class="role-item">
+      <h3>Data Annotation Administrator</h3>
+      <p class="when">July 2026 – October 2026</p>
+      <ul>
+        <li>Supported the administration and coordination of data annotation operations.</li>
+        <li>Worked with annotators, reviewers and project personnel to maintain production workflows.</li>
+        <li>Monitored task progress, productivity records and quality-related feedback.</li>
+        <li>Supported project documentation, reporting and operational communication.</li>
+        <li>Coordinated workflow changes and communicated operational requirements across distributed teams.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Selected projects</h2>
+  <div class="body">
+
+    <article class="project">
+      <h3>AI video data annotation and production management</h3>
+      <p class="focus">Role: AI Project Team Lead. Focus: workforce recruitment, production coordination, quality assurance and client delivery.</p>
+      <p>I managed operations for an AI video annotation project that involved recruiting, training and coordinating distributed annotation personnel. The project needed consistent production output, adherence to annotation guidelines and alignment with the client’s quality expectations.</p>
+      <div class="stats">
+        <div class="stat"><b>100+</b><span>annotators recruited and trained</span></div>
+        <div class="stat"><b>30</b><span>team members coordinated directly</span></div>
+        <div class="stat"><b>200+</b><span>video hours delivered to the client</span></div>
+      </div>
+      <h4>What I did</h4>
+      <ul>
+        <li>Recruited and trained over 100 annotators through my professional and personal network.</li>
+        <li>Directly coordinated a 30-person project team.</li>
+        <li>Managed task allocation, production schedules and team communication.</li>
+        <li>Monitored individual productivity and collective team output.</li>
+        <li>Oversaw quality-related feedback and adherence to annotation guidelines.</li>
+        <li>Onboarded team members and made sure they understood project requirements.</li>
+        <li>Addressed performance gaps and operational challenges affecting production.</li>
+        <li>Prepared and submitted completed deliverables to the client.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>Audio data processing and management</h3>
+      <p class="focus">Focus: AI data operations, file management and transcription workflows.</p>
+      <p>I supported an AI audio data workflow covering the handling, organisation, storage and processing of audio assets.</p>
+      <ul>
+        <li>Managed and organised audio files for processing.</li>
+        <li>Uploaded audio assets to Microsoft Azure Storage.</li>
+        <li>Worked with audio transcription workflows.</li>
+        <li>Supported the movement of data through different production stages.</li>
+        <li>Coordinated operational requirements to keep workflows running.</li>
+      </ul>
+    </article>
+
+  </div>
+</section>
+
+<section id="lessons">
+  <h2>Problems I’ve had to solve</h2>
+  <div class="body">
+    <h3>Balancing productivity, quality and client expectations</h3>
+    <p style="margin-top:.8rem">The most valuable lesson from managing annotation teams is that high productivity doesn’t always mean successful delivery. I met two different performance challenges.</p>
+    <dl>
+      <dt>Managing high performers</dt>
+      <dd>Some annotators submitted tasks far faster than expected. Speed didn’t necessarily mean inaccurate work, but the client raised concerns about unusually quick submissions and the confidence that created in the output. It showed me why production speed has to be balanced against quality expectations.</dd>
+      <dt>Managing low performers</dt>
+      <dd>Some team members struggled to meet production expectations, with recurring delays and competing personal commitments affecting their output. That called for closer monitoring, clearer expectations and stronger accountability.</dd>
+    </dl>
+    <div class="callout">
+      <p><strong>What I took from it</strong></p>
+      <ul>
+        <li>Measure productivity alongside quality, never on its own.</li>
+        <li>High output needs quality checks and validation.</li>
+        <li>Monitor individual performance rather than relying on team averages.</li>
+        <li>Distributed teams need clear expectations and accountability.</li>
+        <li>Good project management balances client expectations with the realities of team execution.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="leadership">
+  <h2>Leadership foundation</h2>
+  <div class="body">
+    <p class="skills">University of Nigeria, Nsukka</p>
+    <p>My leadership experience predates my professional career. At university I took on leadership and organisational responsibilities that meant coordinating people, managing resources and working towards collective goals. They helped me develop the ability to:</p>
+    <ul>
+      <li>Lead and coordinate teams.</li>
+      <li>Manage competing responsibilities and priorities.</li>
+      <li>Organise people and resources towards shared objectives.</li>
+      <li>Communicate with different stakeholders.</li>
+      <li>Take ownership and encourage accountability.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="competencies">
+  <h2>Core competencies</h2>
+  <div class="body" style="max-width:none">
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Competency</th><th>Demonstrated experience</th></tr></thead>
+        <tbody>
+          <tr><td>Team recruitment</td><td>Recruited and trained 100+ annotators</td></tr>
+          <tr><td>Team leadership</td><td>Directly coordinated 30 personnel</td></tr>
+          <tr><td>Project execution</td><td>Coordinated production activities and deliverables</td></tr>
+          <tr><td>Workforce management</td><td>Onboarding, training and task allocation</td></tr>
+          <tr><td>Production monitoring</td><td>Tracked individual and team output</td></tr>
+          <tr><td>Quality assurance</td><td>Monitored annotation quality and guideline compliance</td></tr>
+          <tr><td>Performance management</td><td>Addressed productivity gaps and performance differences</td></tr>
+          <tr><td>Client delivery</td><td>Coordinated submission of 200+ video hours</td></tr>
+          <tr><td>Problem-solving</td><td>Identified bottlenecks and addressed workflow challenges</td></tr>
+          <tr><td>Communication</td><td>Team coordination and operational updates</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="tools">
+  <h2>Tools</h2>
+  <div class="body">
+    <dl>
+      <dt>Microsoft Excel</dt><dd>Operational tracking, data organisation and productivity reporting.</dd>
+      <dt>Microsoft Azure Storage</dt><dd>Audio file management and storage workflows.</dd>
+      <dt>Encord</dt><dd>AI data annotation workflows.</dd>
+      <dt>FastLabel</dt><dd>Video annotation and review.</dd>
+      <dt>Microsoft Office</dt><dd>Documentation, reporting and project coordination.</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="approach">
+  <h2>How I manage projects</h2>
+  <div class="body">
+    <p>Good project management goes beyond assigning tasks and tracking deadlines. It means understanding the whole workflow, coordinating people well and keeping operational activity aligned with the project’s objectives. Five principles guide me:</p>
+    <ol class="principles">
+      <li><strong>Clarity.</strong> Team members know the requirements, their responsibilities and what’s expected of them.</li>
+      <li><strong>Organisation.</strong> Clear workflows, task ownership and reporting structures.</li>
+      <li><strong>Accountability.</strong> Monitor progress and address performance gaps early.</li>
+      <li><strong>Quality.</strong> Hold delivery standards while meeting production expectations.</li>
+      <li><strong>Continuous improvement.</strong> Find operational challenges and build practical solutions.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="objective" style="border-bottom:0">
+  <h2>What I’m looking for</h2>
+  <div class="body">
+    <p>I want to contribute to organisations building scalable AI data infrastructure, especially those connecting African talent to the global AI ecosystem.</p>
+    <p>I bring practical experience in AI data operations, team leadership, workforce coordination and production management, and I’m keen to apply it to complex projects, better operational efficiency and quality outcomes.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">Adaeze Chime · AI project management, data operations and team leadership · <a href="mailto:adaezechime3@gmail.com">Get in touch</a></div>
+</footer>
+</body>
+</html>
